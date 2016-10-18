@@ -2,9 +2,10 @@
 //  AppDelegate.swift
 //  SwiftExtension
 //
-//  Created by Stefanini Jaguariúna on 18/10/16.
-//  Copyright © 2016 Stefanini Jaguariúna. All rights reserved.
+//  Created by Patricia Gabriele Neri on 18/10/16.
+//  Copyright © 2016 Patricia Gabriele Neri. All rights reserved.
 //
+
 
 import UIKit
 
