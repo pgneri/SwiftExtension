@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A7BD6811DB654B50062CC17 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BD6801DB654B50062CC17 /* Helpers.swift */; };
 		9AFDB0801DB653AD0002760F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDB07F1DB653AD0002760F /* AppDelegate.swift */; };
 		9AFDB0821DB653AD0002760F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFDB0811DB653AD0002760F /* ViewController.swift */; };
 		9AFDB0851DB653AD0002760F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFDB0831DB653AD0002760F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A7BD6801DB654B50062CC17 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		9AFDB07C1DB653AD0002760F /* SwiftExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFDB07F1DB653AD0002760F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AFDB0811DB653AD0002760F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				9AFDB0861DB653AE0002760F /* Assets.xcassets */,
 				9AFDB0881DB653AE0002760F /* LaunchScreen.storyboard */,
 				9AFDB08B1DB653AE0002760F /* Info.plist */,
+				9A7BD6801DB654B50062CC17 /* Helpers.swift */,
 			);
 			path = SwiftExtension;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AFDB0821DB653AD0002760F /* ViewController.swift in Sources */,
+				9A7BD6811DB654B50062CC17 /* Helpers.swift in Sources */,
 				9AFDB0801DB653AD0002760F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VM5P9TY7MH;
 				INFOPLIST_FILE = SwiftExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stefanini.SwiftExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VM5P9TY7MH;
 				INFOPLIST_FILE = SwiftExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stefanini.SwiftExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +518,7 @@
 				9AFDB0A61DB653AE0002760F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AFDB0A71DB653AE0002760F /* Build configuration list for PBXNativeTarget "SwiftExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +527,7 @@
 				9AFDB0A91DB653AE0002760F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AFDB0AA1DB653AE0002760F /* Build configuration list for PBXNativeTarget "SwiftExtensionUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +536,7 @@
 				9AFDB0AC1DB653AE0002760F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
